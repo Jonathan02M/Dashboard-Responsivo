@@ -84,7 +84,7 @@ class DashboardPage extends StatelessWidget {
       extendBodyBehindAppBar: true,
       body: Stack(
         children: [
-          // 🌈 FUNDO GRADIENTE
+        
           Container(
             decoration: const BoxDecoration(
               gradient: LinearGradient(
@@ -142,9 +142,11 @@ class _DashboardCardState extends State<DashboardCard> {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           color: Colors.white.withOpacity(0.1),
+         
           border: Border.all(color: Colors.white.withOpacity(0.2)),
           boxShadow: [
             BoxShadow(
+        
               color: widget.cor.withOpacity(0.4),
               blurRadius: isHover ? 20 : 10,
             )
